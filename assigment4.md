@@ -51,18 +51,8 @@ Link to my `Digital-electronics-2` GitHub repository:
 
 3. Flowchart figure for function `main()` and interrupt service routine `ISR(TIMER1_OVF_vect)` of application that ensures the flashing of one LED in the timer interruption. When the button is pressed, the blinking is faster, when the button is released, it is slower. Use only a timer overflow and not a delay library. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
-int main(void)
-{
-    // Configuration of LED(s) at port B
-    GPIO_config_output(&DDRB, LED_D1);
-    GPIO_write_low(&PORTB, LED_D1);
-
-    // Configuration of 16-bit Timer/Counter1 for LED blinking
-    // Set the overflow prescaler to 262 ms and enable interrupt
-    
-    TIM1_overflow_262ms();
-    TIM1_overflow_interrupt_enable();
+   ![image](https://user-images.githubusercontent.com/91128808/137885134-22463c6c-1e57-4b92-a39a-afec91d70657.png)
+ I had to copy my code in a word because I couldn´t take a impPt of all the code in Microchip Studio.
 
 
 ### Knight Rider
