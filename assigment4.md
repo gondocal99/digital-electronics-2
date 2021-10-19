@@ -63,36 +63,6 @@ int main(void)
     
     TIM1_overflow_262ms();
     TIM1_overflow_interrupt_enable();
-    
-     //CONFIGURE A PUSH BUTTON AT POR C
-     GPIO_config_input_nopull(&DDRC, BUTTON_S1);
-        
-     
-    // Enables interrupts by setting the global interrupt mask
-    sei();
-
-    // Infinite loop
-    while (1)
-    {
-        /* Empty loop. All subsequent operations are performed exclusively 
-         * inside interrupt service routines ISRs */
-        
-        //CHECK PUSH BUTTON STATE
-        if(GPIO_read(&PINC,BUTTON_S1)== 0)
-        {
-            TIM1_overflow_33ms();
-        }
-        else
-        
-            {
-              TIM1_overflow_262ms():
-            }
-    }
-
-    // Will never reach this
-    return 0;
-}
-
 
 
 ### Knight Rider
