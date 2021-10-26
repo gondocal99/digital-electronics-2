@@ -7,7 +7,7 @@ https://github.com/gondocal99/digital-electronics-2
 ### 7-segment library
 
 1. In your words, describe the difference between Common Cathode and Common Anode 7-segment display.
-   * CC SSD has all the cathodes of the 7-segments connceted directly together
+   * CC SSD has all the cathodes of the 7-segments conected directly together
    * CA SSD has all the anode of the 7-segments conected together
 
 2. Code listing with syntax highlighting of two interrupt service routines (`TIMER1_OVF_vect`, `TIMER0_OVF_vect`) from counter application with at least two digits, ie. values from 00 to 59:
