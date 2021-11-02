@@ -13,6 +13,7 @@ https://github.com/gondocal99/digital-electronics-2/new/main
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
    
+![image_67143169](https://user-images.githubusercontent.com/91128808/139814444-4927bf26-ca72-4480-8f2c-cd1d2834c4aa.JPG)
 
 
 
