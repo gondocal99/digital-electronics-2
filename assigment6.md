@@ -13,14 +13,14 @@ https://github.com/gondocal99/digital-electronics-2/new/main
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
    
-![IMG_6836](https://user-images.githubusercontent.com/91128808/139805848-5c70675d-4549-4b64-b4a2-49f55e7a1968.jpg)
+
 
 
 ### Stopwatch
 
 1. Flowchart figure for `TIMER2_OVF_vect` interrupt service routine which overflows every 16&nbsp;ms but it updates the stopwatch LCD approximately every 100&nbsp;ms (6 x 16&nbsp;ms = 100&nbsp;ms). Display tenths of a second and seconds `00:seconds.tenths`. Let the stopwatch counts from `00:00.0` to `00:59.9` and then starts again. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+ ![IMG_6836](https://user-images.githubusercontent.com/91128808/139805848-5c70675d-4549-4b64-b4a2-49f55e7a1968.jpg)
 
 
 ### Custom characters
