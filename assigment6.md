@@ -13,6 +13,7 @@ https://github.com/gondocal99/digital-electronics-2/new/main
 2. (Hand-drawn) picture of time signals between ATmega328P and LCD keypad shield (HD44780 driver) when transmitting three character data `De2`.
 
    
+![IMG_6836](https://user-images.githubusercontent.com/91128808/139805848-5c70675d-4549-4b64-b4a2-49f55e7a1968.jpg)
 
 
 ### Stopwatch
@@ -30,7 +31,22 @@ https://github.com/gondocal99/digital-electronics-2/new/main
 /* Variables ---------------------------------------------------------*/
 // Custom character definition
 uint8_t customChar[16] = {
-    // WRITE YOUR CODE HERE
+   0b10001,
+   0b01010,
+   0b00100,
+   0b00100,
+   0b01110,
+   0b10001,
+   0b01010,
+   0b00100,
+   0b10001,
+   0b01010,
+   0b00100,
+   0b00100,
+   0b01110,
+   0b10001,
+   0b01010,
+   0b00100
 
 };
 ```
@@ -42,4 +58,5 @@ Consider a kitchen alarm with an LCD, one LED and three push buttons: start, +1 
 
 1. Scheme of kitchen alarm; do not forget the supply voltage. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+  ![image](https://user-images.githubusercontent.com/91128808/139804515-c60110b8-f892-4a8c-9b68-48a9d58f4582.png)
+
