@@ -32,10 +32,34 @@ ISR(ADC_vect)
     value = ADC;                  // Copy ADC result to 16-bit variable
     itoa(value, lcd_string, 10);  // Convert decimal value to string
 
-    // WRITE YOUR CODE HERE
+     //CLEAR PREVIOUS VALUE
+     lcd_gotoxy(8, 0);
+     lcd_puts("  ");
+     
+     //put new value
+    itoa(value, lcd_string, 10);
+    lcd_gotoxy(8, 0);
+    lcd_puts(lcd_string);
+    
+    //send the same value to UART
+    uart_puts(lcd_string);
+    uart_puts("  ");
 
-}
-```
+     //Display value in hexa
+     itoa( value,lcd_string,16);
+     lcd_gotoxy(13,0);
+     lcd_puts(lcd_string);
+   
+    //Display what push button was pressed
+     itoa( value,lcd_string,16);
+     lcd_gotoxy(8,1);
+     lcd_puts(lcd_string);
+     uart_puts(lcd_string);
+     uart_putc('\n');
+     uart_putc('\r');
+  
+
+
 
 ### UART communication
 
@@ -53,4 +77,5 @@ Consider an application for temperature measurement and display. Use temperature
 
 1. Scheme of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+  ![image](https://user-images.githubusercontent.com/91128808/140913973-dcf31350-ce74-4977-bfca-f0956a45c48d.png)
+
