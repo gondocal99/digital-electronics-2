@@ -2,8 +2,7 @@
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
-
+https://github.com/gondocal99/digital-electronics-2/edit/main/assigment7.md
 ### Analog-to-Digital Conversion
 
 1. Complete table with voltage divider, calculated, and measured ADC values for all five push buttons.
