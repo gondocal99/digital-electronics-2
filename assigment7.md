@@ -79,5 +79,5 @@ Consider an application for temperature measurement and display. Use temperature
 
   
 
-![image](https://user-images.githubusercontent.com/91128808/140914384-244961ee-7fa6-456e-a176-3561c52be122.png)
+![image](https://user-images.githubusercontent.com/91128808/140914555-e610b2ec-9562-4d45-863f-5ed525d49507.png)
 
