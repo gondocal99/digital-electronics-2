@@ -77,5 +77,6 @@ Consider an application for temperature measurement and display. Use temperature
 
 1. Scheme of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-  ![image](https://user-images.githubusercontent.com/91128808/140913973-dcf31350-ce74-4977-bfca-f0956a45c48d.png)
+  
 
+![image](https://user-images.githubusercontent.com/91128808/140914272-4e5e2f68-e2dd-4e3b-ba8f-3f60b971382b.png)
