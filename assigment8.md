@@ -40,7 +40,10 @@ ISR(TIMER1_OVF_vect)
     case STATE_IDLE:
         addr++;
         // If slave address is between 8 and 119 then move to SEND state
-
+        if((addr >7) && (addr <120))
+           state = STATE_SEND;
+        else
+           state = STATE_IDLE;
         break;
     
     // Transmit I2C slave address and get result
