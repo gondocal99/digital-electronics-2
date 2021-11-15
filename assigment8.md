@@ -56,12 +56,19 @@ ISR(TIMER1_OVF_vect)
         twi_stop();
         /* Test result from I2C bus. If it is 0 then move to ACK state, 
          * otherwise move to IDLE */
-
+         if (result == 0)
+            state= STATE_ACK;
+        else 
+            state= STATE_IDLE;
         break;
-
+        
     // A module connected to the bus was found
     case STATE_ACK:
         // Send info about active I2C slave to UART and move to IDLE
+        itoa(addr, uart_stting, 16);
+        uart_puts(uart_string);
+        uart_puts(" ");
+        state = STATE_IDLE;
 
         break;
 
