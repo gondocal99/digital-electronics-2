@@ -2,7 +2,7 @@
 
 Link to this file in your GitHub repository:
 
-[https://github.com/your-github-account/repository-name/lab_name](https://github.com/...)
+https://github.com/gondocal99/digital-electronics-2/edit/main/assigment8.md
 
 ### Arduino Uno pinout
 
