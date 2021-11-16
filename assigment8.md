@@ -94,5 +94,5 @@ ISR(TIMER1_OVF_vect)
 Consider an application for temperature and humidity measurement and display. Use combine sensor DHT12, real time clock DS3231, LCD, and one LED. Application display time in hours:minutes:seconds at LCD, measures both temperature and humidity values once per minut, display both values on LCD, and when the temperature is too high, the LED starts blinking.
 
 1. FSM state diagram picture of meteo station. The image can be drawn on a computer or by hand. Concise name of individual states and describe the transitions between them.
+![Captura de pantalla 2021-11-16 102043](https://user-images.githubusercontent.com/91128808/141962830-20872616-23db-453a-9396-5a05501199df.png)
 
-   ![your figure]()
